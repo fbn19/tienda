@@ -1,0 +1,34 @@
+create database shop;
+
+use shop;
+
+create table categoria(
+id_categoria int not null primary key auto_increment,
+categoria varchar(50));
+
+create table producto(
+id_producto int not null primary key auto_increment,
+nombre varchar(50),
+precio float,
+id_categoria int,
+imagen varchar(200));
+
+create table usuario(
+id_usuario int not null primary key auto_increment,
+nombre varchar(100),
+direccion varchar(100),
+correo varchar(100),
+password varchar(100),
+tc bigint);
+
+create table transaccion(
+id_transaccion bigint not null primary key auto_increment,
+id_usuario varchar(100),
+fecha date,
+monto float);
+
+create table detalle(
+id_detalle bigint not null primary key auto_increment,
+id_transaccion bigint,
+id_producto int,
+cantidad);
