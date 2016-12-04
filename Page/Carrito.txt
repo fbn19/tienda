@@ -1,0 +1,173 @@
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+   <title>COHOSA</title>
+    <link href="../Content/bootstrap.css" rel="stylesheet" />
+    <link href="../Content/site.css" rel="stylesheet" />
+    <link href="../Content/simple-sidebar.css" rel="stylesheet" />
+    <link href="../Content/least.min.css" rel="stylesheet" />
+
+     <div class="navbar navbar-inverse navbar-fixed-top">
+        <div class="container">
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <a class="navbar-brand" href="../Master.php">COHOSA</a>
+            </div>
+            <div class="navbar-collapse collapse">
+                <ul class="nav navbar-nav">
+                    <li><a href="../Master.php">Inicio</a></li> 
+                    <li><a href="../Page/Acerca.php">Acerca de</a></li>
+                    <li><a href="../Page/Contacto.php">Contacto</a></li>
+                </ul>
+                <ul class="nav navbar-nav navbar-right">
+                    <li><a href="../Page/Carrito.php" id="registerLink">Carrito</a></li>
+                    <li><a href="../Page/Login.php">Iniciar sesi&#243;n</a></li>
+                </ul>
+
+            </div>
+        </div>
+    </div>
+
+
+</head>
+<body><body style="background-color:gray">    
+<div id="wrapper"> 
+   
+<div id="sidebar-wrapper" role="navigation" >
+
+    <ul class="sidebar-nav">       
+                  
+        <div class="list-group">
+            <a href="#" class="list-group-item active">Categorias</a>
+            <a href="#" class="list-group-item">Accion</a>
+            <a href="#" class="list-group-item">Disparos</a>
+            <a href="#" class="list-group-item">Estrategia</a>
+            <a href="#" class="list-group-item">Simulacion</a>
+            <a href="#" class="list-group-item">Deporte</a>
+            <a href="#" class="list-group-item">Carreras</a>
+            <a href="#" class="list-group-item">Aventura</a>
+            <a href="#" class="list-group-item">Rol</a>
+            <a class="list-group-item">
+                <input type="text" id="search-bar" class="sb-search" placeholder="E.j Halo, GTA" oninput="this.classList.add('-active'); W.App.Templates.debouncedSearch(this.value);">
+            </a>
+        </div>
+                
+    </ul>
+</div>
+    
+    <div id="page-content-wrapper">
+            <div class="container-fluid">
+                <div class="row">
+ <!-- Least Gallery -->
+        <section id="least">
+            
+            <!-- Least Gallery: Fullscreen Preview -->
+            <div class="least-preview"></div>
+            
+            <!-- Least Gallery: Thumbnails -->
+            <ul class="least-gallery">
+                <!-- 1 || Element with data-caption ||-->
+                <li>
+                    <a href="../img/accion/Gears%20of%20Wars%202.jpg" title="Skateboard" data-subtitle="View Picture" data-caption="<strong>Bold text</strong> normal caption text">
+                        <img src="../img/accion/Gears%20of%20Wars%202.jpg" alt="Alt Image Text" />
+                    </a>
+                </li>
+                
+                <!-- 2 || Element with data-caption as href-attribute ||-->
+                <li>
+                    <a href="../img/accion/Gears%20of%20Wars%203.jpg"" title="Train Rails" data-subtitle="View Picture" data-caption="Now it's possibe to add an URL-Link into caption text - <a href='http://www.google.com' target='_blank'>GOOGLE</a>">
+                        <img src="../img/accion/Gears%20of%20Wars%203.jpg" alt="Alt Image Text" />
+                    </a>
+                </li>
+                
+                <!-- 3 -->
+                <li>
+                    <a href="../img/accion/Gears%20of%20Wars%204.jpg" title="Apple" data-subtitle="View Picture">
+                        <img src="../img/accion/Gears%20of%20Wars%204.jpg" alt="Alt Image Text" />
+                    </a>
+                </li>
+
+                <!-- 4 -->
+                <li>
+                    <a href="../img/accion/Gears%20of%20Wars.jpg" title="Road Trip" data-subtitle="View Picture">
+                        <img src="../img/accion/Gears%20of%20Wars.jpg"  alt="Alt Image Text" />
+                    </a>
+                </li>
+
+                <!-- 5 -->
+                <li>
+                    <a href="../img/accion/GTA.jpg" title="Desert" data-subtitle="View Picture">
+                        <img src="../img/accion/GTA.jpg" alt="Alt Image Text" />
+                    </a>
+                </li>
+
+                <!-- 6 -->
+                <li>
+                    <a href="../img/accion/GTA%202.jpg" title="Tree" data-subtitle="View Picture">
+                        <img src="../img/accion/GTA%202.jpg" alt="Alt Image Text" />
+                    </a>
+                </li>
+
+                <!-- 7 -->
+                <li>
+                    <a href="../img/accion/GTA%20III.jpg" title="MacBook" data-subtitle="View Picture">>
+                        <img src="../img/accion/GTA%20III.jpg" alt="Alt Image Text" />
+                    </a>
+                </li>
+
+                <!-- 8 -->
+                <li>
+                    <a href="../img/accion/GTA%20IV%20the%20lost.jpg" title="Clock" data-subtitle="View Picture">
+                        <img src="../img/accion/GTA%20IV%20the%20lost.jpg" alt="Alt Image Text" />
+                    </a>
+                </li>
+
+                <!-- 9 -->
+                <li>
+                    <a href="../img/accion/GTA%20IV.jpg" title="iPhone" data-subtitle="View Picture">
+                        <img src="../img/accion/GTA%20IV.jpg" alt="Alt Image Text" />
+                    </a>
+                </li>
+
+                <!-- 10 -->
+                <li>
+                    <a href="../img/accion/GTA%20V.jpg" title="New York" data-subtitle="View Picture">
+                        <img src="../img/accion/GTA%20V.jpg" alt="Alt Image Text" />
+                    </a>
+                </li>
+
+                <!-- 11 -->
+                <li>
+                    <a href="../img/accion/Goatz.jpg" title="New York" data-subtitle="View Picture">
+                        <img src="../img/accion/Goatz.jpg" alt="Alt Image Text" />
+                    </a>
+                </li>
+
+                <!-- 12 -->
+                <li>
+                    <a href="../img/accion/Red%20Dead%20Redemption.jpg" title="New York" data-subtitle="View Picture">
+                        <img src="../img/accion/Red%20Dead%20Redemption.jpg" alt="Alt Image Text" />
+                    </a>
+                </li>
+            </ul>
+
+        </section>
+        <!-- Least Gallery end -->
+                </div>
+            </div>
+        </div>   
+
+</div>
+
+
+ 
+
+
+
+   
+
+</body>
+</html>
